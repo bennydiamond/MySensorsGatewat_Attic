@@ -8,15 +8,23 @@ This is going in my attic for the following reasons:
 
 # Hardware
 Uses an Arduino UNO R3
+
 Ethernet Shield V1 W5100
+
 SHT21 Temperature + Humidity sensor
+
 Reed switch normally open
+
 Couple of LEDs
+
 
 # Libraries
 [MySensors](https://github.com/mysensors/MySensors) to set up the device as an Ethernet gateway as well as expose sensors.
+
 [Ethernet](https://github.com/arduino-libraries/Ethernet) because obviously.
+
 [tinySHT2X](https://github.com/RobTillaart/tinySHT2x) because it's lean and does what it needs and nothing more.
+
 
 # Quirks
 This project is very much tailored to my needs.
